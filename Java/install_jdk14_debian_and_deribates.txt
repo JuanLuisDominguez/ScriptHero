@@ -1,0 +1,9 @@
+sudo apt install ./jdk-14.0.1_linux-x64_bin.deb
+
+sudo  update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-14.0.1/bin/java 4
+sudo  update-alternatives --config java
+sudo  update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-14.0.1/bin/jar 4
+sudo  update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-14.0.1/bin/javac 4
+sudo  update-alternatives --set jar /usr/lib/jvm/jdk-14.0.1/bin/jar 
+sudo  update-alternatives --set javac /usr/lib/jvm/jdk-14.0.1/bin/javac 
+java -version

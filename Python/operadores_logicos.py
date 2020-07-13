@@ -1,4 +1,29 @@
 #!/usr/bin/env python
+"""
+==========================================================================
+   FILE: tarea_area_perimetro.py
+
+   USAGE:
+
+
+   DESCRIPTION: 
+
+
+   OPTIONS:
+
+   REQUIREMENTS:
+
+   BUSGS:
+   NOTES:
+
+   REQUEST:
+   AUTOR: Juan Luis Dominguez 
+   COMPANY: 
+   VERSION: 0.0.1
+   CREATED: 
+   REVISION: 
+=========================================================================
+"""
 
 a = int(input("Proporciona un valor:" ))
 
